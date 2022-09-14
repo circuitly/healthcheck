@@ -1,4 +1,4 @@
-FROM rabbitmq
+FROM rabbitmq:management
 
 COPY docker-healthcheck /usr/local/bin/
 
